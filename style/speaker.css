@@ -1,0 +1,210 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin: 0px auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+
+.shadow {
+	text-shadow: #800000;
+}
+
+.black {
+	color: black;
+}
+
+.red {
+	color: #800000;
+}
+
+h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
+}
+
+h2 {
+	padding-top: 0px;
+}
+
+h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+/* the styles for the header */
+
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+header img {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 1em;
+}
+
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+
+/* Navigation Section */
+
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+}
+
+#nav_menu ul li {
+	display: inline-block;
+	float: left;
+}
+
+#nav_menu ul li a {
+	display: block;
+	text-align: center;
+	width: 160px;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+
+}
+
+#nav_menu ul .current {
+	color: yellow;
+}
+
+
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_menu ul ul li {
+	float: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* the styles for the section */
+
+main {
+	clear: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+article img {
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	border: 1px solid black;
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding-bottom: 20px;
+}
+
+aside {
+	width: 215px;
+	float: left;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+aside h1 img {
+	bottom-padding: 1em;
+}
+
+main h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+
+main h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+main p {
+	padding-bottom: .5em;
+}
+
+main blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+
+main a:hover {
+	font-style: italic;
+}
+
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+main li {
+	padding-bottom: .35em;
+}
+
+/* the styles for the footer */
+
+footer {
+	background-color: #931420;
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
